@@ -190,14 +190,14 @@ footer {
 @media (max-width: 500px) {
     .section {
         flex-direction: column;
-        height: 50vh;
+        height: 60vh;
         max-height: none;
         padding: 1rem 0.5rem;
     }
 
     .slider {
         width: 100%;
-        height: 48%;
+        height: 60%;
         border-radius: 10px;
         margin-bottom: 1rem;
     }
@@ -205,6 +205,7 @@ footer {
     .text-block {
         width: 100%;
         padding: 0;
+        height: calc(100% - 50%);
     }
 
     .text-block h2 {
