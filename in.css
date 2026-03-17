@@ -112,6 +112,18 @@ header a {
     font-size: 1.5rem;
     margin-bottom: 1rem;
     letter-spacing: 0.5px;
+
+
+}
+
+.text-heading {
+    width: 100%;
+    height: 3rem;
+    background-color: #F6F7FB;
+    filter: blur(1);
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 footer {
@@ -165,13 +177,13 @@ footer {
 @media (max-width: 755px) {
     .section {
         flex-direction: column;
-        height: 55vh;
+        height: 100vh;
         padding: 1rem;
     }
 
     .slider {
-        width: 100%;
-        height: 50%;
+        width: 98%;
+        height: 40%;
         /* min-height: 180px; */
         margin-bottom: 1rem;
     }
@@ -190,14 +202,14 @@ footer {
 @media (max-width: 500px) {
     .section {
         flex-direction: column;
-        height: 60vh;
+        height: 80vh;
         max-height: none;
         padding: 1rem 0.5rem;
     }
 
     .slider {
         width: 100%;
-        height: 60%;
+        height: 40%;
         border-radius: 10px;
         margin-bottom: 1rem;
     }
