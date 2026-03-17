@@ -212,7 +212,7 @@ footer {
 
     .section {
         flex-direction: column;
-        height: 80vh;
+        height: 100vh;
         max-height: none;
         padding: 1rem 0.5rem;
     }
