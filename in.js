@@ -1,7 +1,7 @@
 // Image lists for each section (first 4 words of heading, lowercased, underscores)
 const my_academic_story = [
     'img/kmc.jpg',
-    'img/kmc1.jpg',
+    
     'img/kirorimal.jpg'
 ];
 const research_projects = [
